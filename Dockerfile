@@ -1,6 +1,4 @@
-FROM nginx:alpine AS prod
-
-ENV NODE_ENV production
+FROM nginx:alpine
 
 COPY . /usr/share/nginx/html/cards
 
